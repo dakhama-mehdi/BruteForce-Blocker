@@ -17,3 +17,6 @@ The detection is based on failed logon events (Event ID 4625), using criteria su
 ## Status
 
 🚧 Work in progress
+
+[Preview] : [View Online Example](https://dakhama-mehdi.github.io/BruteForce-Blocker/Examples/attack_map.html)
+
