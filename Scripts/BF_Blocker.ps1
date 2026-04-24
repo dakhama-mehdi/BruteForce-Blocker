@@ -34,7 +34,7 @@ Countries allowed with higher thresholds
 List of IP addresses to exclude from analysis
 
 .NOTES
-Version : 1.0
+Version : 1.2
 Author : Mehdi Dakhama  
 Project : LogonIT.fr / BruteForce Blocker  
 Recommended usage via scheduled task  
@@ -59,7 +59,7 @@ $threshold = 10
 $filterReason = @("User does not exist")
 # Number of identical failure reasons required to trigger a block
 # Only used if $filterReason is defined
-$reasonThreshold = 7
+$reasonThreshold = 4
 
 # Filter by Country 
 # List of trusted countries (will apply higher tolerance) Example: @("France")
@@ -67,7 +67,7 @@ $trustedCountries = @("France")
 # Higher threshold for trusted countries (to reduce false positives)
 $trustedThreshold = 15
 # Lower threshold for foreign countries (more aggressive protection)
-$thresetrange = 10
+$thresetrange = 5
 
 #  Trusted sources 
 # List of IP publics addresses that will never be blocked
